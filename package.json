@@ -1,0 +1,19 @@
+{
+  "name": "github-learning-notes",
+  "version": "1.0.0",
+  "description": "📚 从零开始学习 GitHub 的完整笔记仓库",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitfox-enter/github-learning-notes.git"
+  },
+  "license": "MIT"
+}

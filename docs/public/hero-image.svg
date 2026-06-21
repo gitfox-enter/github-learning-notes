@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#bd34fe"/>
+      <stop offset="100%" style="stop-color:#41d1ff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Terminal window -->
+  <rect x="50" y="40" width="300" height="180" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Terminal header -->
+  <rect x="50" y="40" width="300" height="28" rx="8" fill="#161b22"/>
+  <rect x="50" y="60" width="300" height="8" fill="#161b22"/>
+  
+  <!-- Terminal buttons -->
+  <circle cx="70" cy="54" r="6" fill="#ff5f56"/>
+  <circle cx="88" cy="54" r="6" fill="#ffbd2e"/>
+  <circle cx="106" cy="54" r="6" fill="#27c93f"/>
+  
+  <!-- Terminal content -->
+  <text x="70" y="95" font-family="monospace" font-size="12" fill="#7ee787">$ git clone https://github.com/gitfox-enter</text>
+  <text x="70" y="120" font-family="monospace" font-size="12" fill="#79c0ff">Cloning into 'github-learning-notes'...</text>
+  <text x="70" y="145" font-family="monospace" font-size="12" fill="#7ee787">$ git add .</text>
+  <text x="70" y="170" font-family="monospace" font-size="12" fill="#7ee787">$ git commit -m "feat: start learning"</text>
+  <text x="70" y="195" font-family="monospace" font-size="12" fill="#79c0ff">✨ 1 file changed</text>
+  
+  <!-- Accent line -->
+  <rect x="50" y="240" width="300" height="4" rx="2" fill="url(#accent)"/>
+  
+  <!-- Text -->
+  <text x="200" y="275" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">GitHub Learning Notes</text>
+</svg>

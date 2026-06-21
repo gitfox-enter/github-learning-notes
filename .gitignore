@@ -1,18 +1,18 @@
-# 依赖
+# Dependencies
 node_modules/
-package-lock.json
 
-# 系统文件
+# Build output
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
 Thumbs.db
 
-# 编辑器
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# 临时文件
-*.tmp
+# Logs
 *.log
+npm-debug.log*
