@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'GitHub 学习笔记',
   description: '从零开始的 Git & GitHub 学习之旅',
   lang: 'zh-CN',
-  base: '/',
+  base: '/github-learning-notes/',
   lastUpdated: true,
   cleanUrls: true,
 
