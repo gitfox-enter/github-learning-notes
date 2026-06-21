@@ -21,16 +21,5 @@ features:
     title: Git 命令速查
     details: 常用 Git 命令合集，随时查阅
     link: /notes/git-commands/01-commands-cheatsheet
-  - icon: 🌐
-    title: HTML & CSS
-    details: 前端基础，搭建你的第一个网页
-    link: /notes/html-css/
-  - icon: ⚡
-    title: JavaScript
-    details: 让网页动起来的脚本语言
-    link: /notes/javascript/
-  - icon: 🐍
-    title: Python
-    details: 简洁强大的编程语言
-    link: /notes/python/
+
 ---

@@ -34,21 +34,7 @@ export default defineConfig({
             { text: '命令速查表', link: '/notes/git-commands/01-commands-cheatsheet' },
           ],
         },
-        {
-          text: 'HTML & CSS',
-          collapsed: true,
-          items: [],
-        },
-        {
-          text: 'JavaScript',
-          collapsed: true,
-          items: [],
-        },
-        {
-          text: 'Python',
-          collapsed: true,
-          items: [],
-        },
+
       ],
     },
 

@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 22
       - run: npm install
+      - uses: actions/configure-pages@v4
       - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
         with:
