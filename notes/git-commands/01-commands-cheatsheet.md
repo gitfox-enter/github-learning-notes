@@ -28,6 +28,10 @@ git branch <name>               # 创建新分支
 git checkout <name>             # 切换分支
 git checkout -b <name>          # 创建并切换（最常用）
 
+# 现代替代命令（Git 2.23+，推荐）
+git switch <name>               # 切换分支（更清晰）
+git switch -c <name>            # 创建并切换
+
 # 合并分支
 git checkout main               # 先切回主分支
 git merge <branch-name>         # 合并指定分支
@@ -35,6 +39,8 @@ git merge <branch-name>         # 合并指定分支
 # 删除分支
 git branch -d <name>            # 删除已合并的分支
 ```
+
+> 💡 **推荐**：`git switch` 是 Git 2.23（2019）引入的新命令，语义更清晰。建议学习时同时掌握 `checkout` 和 `switch`，因为很多教程还在用旧命令。
 
 ## 🔍 查看状态
 

@@ -8,36 +8,36 @@
 github-learning-notes/
 ├── notes/                  # 学习笔记
 │   ├── github-basics/      # GitHub 基础操作
-│   ├── html-css/           # HTML + CSS 笔记
-│   ├── javascript/         # JavaScript 笔记
-│   ├── python/             # Python 笔记
 │   └── git-commands/       # Git 命令速查
-├── images/                 # 笔记配图
-├── templates/              # 模板文件
 └── .github/                # GitHub 配置
     └── COMMIT_TEMPLATE     # 提交信息模板
 ```
+
+> 注：html-css、javascript、python 等笔记将随学习进度逐步添加。
 
 ## 📖 笔记索引
 
 ### GitHub 基础
 - [GitHub 新手入门路线](notes/github-basics/01-learning-roadmap.md)
-- [Git 常用命令速查](notes/git-commands/01-commands-cheatsheet.md)
+- [我的第一次 Git 提交](notes/github-basics/02-my-first-commit.md)
+
+### Git 命令速查
+- [Git 常用命令速查表](notes/git-commands/01-commands-cheatsheet.md)
 
 ### HTML + CSS
-<!-- 待添加 -->
+> 待学习...
 
 ### JavaScript
-<!-- 待添加 -->
+> 待学习...
 
 ### Python
-<!-- 待添加 -->
+> 待学习...
 
 ## 🎯 学习路线
 
 | 阶段 | 项目 | 状态 |
 |------|------|------|
-| 1 | 学习笔记仓库（本仓库） | 🔄 进行中 |
+| 1 | 学习笔记仓库（本仓库） | ✅ 已完成 |
 | 2 | 个人名片页 | ⬜ 待开始 |
 | 3 | Todo 待办清单 | ⬜ 待开始 |
 | 4 | Python 小脚本 | ⬜ 待开始 |

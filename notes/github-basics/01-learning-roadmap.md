@@ -16,8 +16,8 @@
 **目标**：熟悉 GitHub 基础操作
 
 - [x] 创建仓库
-- [ ] 写 README.md
-- [ ] git add / commit / push 完整流程
+- [x] 写 README.md
+- [x] git add / commit / push 完整流程
 - [ ] .gitignore 文件
 - [ ] 目录分类和索引
 
@@ -109,6 +109,10 @@ async function getWeather(city) {
 | `docs:` | 文档 | `docs: 更新 README 安装说明` |
 | `style:` | 格式 | `style: 统一缩进为2空格` |
 | `refactor:` | 重构 | `refactor: 拆分渲染逻辑到独立模块` |
+
+---
+
+> ✅ 已完成第一阶段学习，继续加油！
 
 ## 参考资源
 
